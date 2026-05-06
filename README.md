@@ -63,12 +63,9 @@ The trash button clears the cart and resets the selected quantity back to 1.
 
 
 
+## 🔗 Live Demo
 
-🔗 Live Demo
-
-
-
-
+[View Live Project](https://eduardo-host.github.io/ecommerce-product-card/)
 
 
 

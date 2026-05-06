@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="item-container">
+        <div class="item-top">
+            <div class="top-left-logo">
+                <img src="./img/nike.webp" alt="nike logo">
+
+            </div>
+            <div class="top-right-actions">
+                <div class="top-right-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-badge" id="cartCount">0</span>
+                </div>
+
+                <button class="trash-btn" id="clearCartBtn" aria-label="Clear cart">
+                    <i class="fa-solid fa-trash"></i>
+                </button>
+            </div>
+
+
+        </div>
+        <div class="main-item">
+            <img src="./img/Jordan 1.jpg" alt="shoes">
+        </div>
+        <h2 class="item-heading">
+            Jordan 1
+
+        </h2>
+        <p class="item-description">
+            The Air Jordan 1 is a classic sneaker with a clean design, comfortable fit, and iconic style.
+            This product card includes quantity controls, cart interaction, rating stars, and a simple
+            e-commerce layout built with HTML, CSS, and JavaScript.
+        </p>
+        <ul class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+
+        </ul>
+        <p class="item-price"><sup>$</sup>5.00/-</p>
+        <div class="qty">
+            <button class="qty-btn" id="decQty" aria-label="Decrease quantity">-</button>
+            <span class="qty-value" id="qtyValue">1</span>
+            <button class="qty-btn" id="incQty" aria-label="Increase quantity">+</button>
+        </div>
+
+        <button class="item-cart-btn">Add to cart</button>
+
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
